@@ -39,4 +39,4 @@ plot(data$Open, data$Price,
 cor_test <- cor.test(data$Open, data$Price, method = "pearson")
 
 # Print correlation test output
-cor_test
+cor_test 
